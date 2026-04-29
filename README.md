@@ -12,6 +12,12 @@ Narasumber: Hasanudin
 **📑 Deskripsi Proyek:**  
 Proyek ini bertujuan untuk menganalisis usaha di bidang digital printing yang bergerak dalam penjualan sparepart printing, jasa perbaikan perangkat, serta penyediaan dan layanan mesin fotocopy. Usaha ini melayani berbagai kebutuhan pelanggan, mulai dari pembelian komponen printer, perbaikan kerusakan perangkat, hingga pengadaan dan perawatan mesin fotocopy untuk kebutuhan individu maupun instansi. Analisis difokuskan pada alur proses bisnis seperti pengelolaan stok barang, transaksi penjualan, serta penanganan layanan servis.
 
+**Use Case Description**
+Kelola Produk → Admin dapat menambah, mengedit, dan menghapus produk
+Pesan Service → Customer mengisi form kerusakan dan jadwal
+Konsultasi → Customer bertanya via sistem / WhatsApp
+Lihat Laporan → Admin melihat data penjualan & service
+
 **Use Case:**  
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/47ed1ef3-fd23-42f4-8a7d-12093a319c00" />
 
