@@ -1,5 +1,5 @@
 # Tugas Analisis Perancangan Berorientasi Objek - A
-Dosen: Adi Wahyu Pribadi, S.T M.T
+Dosen: Adi Wahyu Pribadi, S.Si., M.Kom
 
 ---
 ## ✨ Identitas Proyek
@@ -7,8 +7,32 @@ Dosen: Adi Wahyu Pribadi, S.T M.T
 **🖨️ Nama Proyek:**  
 Analisis Usaha Digital Printing
 
+Narasumber: Hasanudin
+
 **📑 Deskripsi Proyek:**  
 Proyek ini bertujuan untuk menganalisis usaha di bidang digital printing yang bergerak dalam penjualan sparepart printing, jasa perbaikan perangkat, serta penyediaan dan layanan mesin fotocopy. Usaha ini melayani berbagai kebutuhan pelanggan, mulai dari pembelian komponen printer, perbaikan kerusakan perangkat, hingga pengadaan dan perawatan mesin fotocopy untuk kebutuhan individu maupun instansi. Analisis difokuskan pada alur proses bisnis seperti pengelolaan stok barang, transaksi penjualan, serta penanganan layanan servis.
+
+**Use Case:**  
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/47ed1ef3-fd23-42f4-8a7d-12093a319c00" />
+
+**Solusi yang Ditawarkan**
+
+Membangun website bisnis berbasis web untuk usaha Bapak Hasanudin yang menyediakan informasi layanan, penjualan mesin fotokopi, sparepart, dan jasa service secara online.
+
+**Fitur Utama:**
+- Katalog produk mesin fotokopi & sparepart
+- Pemesanan jasa service online
+- Konsultasi kerusakan mesin
+- Kontak WhatsApp & lokasi usaha
+- Dashboard admin untuk kelola produk, pesanan, dan pelanggan
+- Laporan penjualan & service
+
+**Manfaat:**
+- Mempermudah promosi usaha
+- Menjangkau pelanggan lebih luas
+- Mempermudah pemesanan customer
+- Meningkatkan profesionalitas bisnis
+- Membantu pengelolaan usaha lebih rapi dan efisien
 
 **👥 Anggota Kelompok 06:**
 - Fadhil Pratama (4524210032)
@@ -16,8 +40,10 @@ Proyek ini bertujuan untuk menganalisis usaha di bidang digital printing yang be
 - Ivan Wirahadi Permana (4524210045)
 - Elsa Setia Marcsa (4524210030)
 - Jihaan Hanifah (4524210047)
----
 
+---
+## Link Video Wawancara
+[Video Wawancara](https://youtu.be/odo_vrixBIw?si=6FQiJDXBvE2JkQna)
 <!--
 ## 📌 WORKFLOW!! 
 1. *git clone* (Clone repo ke local)
