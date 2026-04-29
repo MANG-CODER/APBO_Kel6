@@ -81,6 +81,16 @@ Aktor yang menggunakan layanan web untuk mencari produk dan jasa servis.
 
 ## 📌 3. Skenario Sistem (Use Case)
 
+**Use Case Description**
+
+Kelola Produk → Admin dapat menambah, mengedit, dan menghapus produk
+
+Pesan Service → Customer mengisi form kerusakan dan jadwal
+
+Konsultasi → Customer bertanya via sistem / WhatsApp
+
+Lihat Laporan → Admin melihat data penjualan & service
+
 **Diagram Use Case:** <img width="800" alt="Use Case Diagram" src="https://github.com/user-attachments/assets/47ed1ef3-fd23-42f4-8a7d-12093a319c00" />
 
 ---
