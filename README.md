@@ -2,56 +2,68 @@
 Dosen: Adi Wahyu Pribadi, S.Si., M.Kom
 
 ---
-## ✨ Identitas Proyek
+##  Identitas Proyek
 
-**🖨️ Nama Proyek:** Analisis Usaha Digital Printing
+**Nama Proyek:** Analisis Usaha Digital Printing
 
-**👤 Narasumber:** Bapak Hasanudin (Pemilik Usaha)
+**Narasumber:** Bapak Hasanudin (Pemilik Usaha)
 
-**👥 Anggota Kelompok 06:**
+** Anggota Kelompok 06:**
 - Fadhil Pratama (4524210032)
 - Indra Fadhillah Ahmad (4524210043)
 - Ivan Wirahadi Permana (4524210045)
 - Elsa Setia Marcsa (4524210030)
 - Jihaan Hanifah (4524210047)
 
-🎥 **Video Dokumentasi Wawancara** [![Video Wawancara](https://img.youtube.com/vi/odo_vrixBIw/0.jpg)](https://youtu.be/odo_vrixBIw?si=6FQiJDXBvE2JkQna)  
+**Video Dokumentasi Wawancara** [![Video Wawancara](https://img.youtube.com/vi/odo_vrixBIw/0.jpg)](https://youtu.be/odo_vrixBIw?si=6FQiJDXBvE2JkQna)  
 *(Klik gambar di atas untuk memutar video)*
 
 ---
 
-## 📖 Latar Belakang
-Usaha digital printing milik Bapak Hasanudin yang bergerak dalam penjualan *sparepart* printing, jasa perbaikan perangkat, serta penyediaan dan sewa mesin fotokopi telah berjalan selama kurang lebih 16 tahun secara konvensional. Selama ini, operasional dan promosi usaha sangat mengandalkan jaringan (*networking*) personal. Namun, semenjak pandemi dan pesatnya pergeseran ke era digital, cara pelanggan mencari jasa telah berubah drastis.
+##  Latar Belakang
+Berdasarkan hasil wawancara yang telah dilakukan dengan Bapak Hasanudin selaku pemilik usaha digital printing, diketahui bahwa usaha ini telah berjalan kurang lebih selama 16 tahun. Selama itu pula, sistem operasional yang digunakan masih bersifat konvensional, baik dalam proses pemesanan, pencatatan, maupun promosi usaha.
 
-Ketiadaan platform digital seperti media sosial atau website membuat laju pengenalan usaha kepada pelanggan baru menjadi lambat dibandingkan kompetitor. Pencatatan pesanan yang masih manual dan pemesanan yang hanya mengandalkan telepon atau WhatsApp dirasa kurang efisien untuk rencana ekspansi. Oleh karena itu, diperlukan sebuah sistem informasi bisnis digital berbasis web untuk memperluas jangkauan pasar hingga skala nasional, mengedukasi pelanggan, serta mempermudah operasional mulai dari pemesanan jasa servis hingga pembelian produk.
+Dalam praktiknya, pelanggan biasanya melakukan pemesanan melalui telepon yang terdapat pada kartu nama yang di peroleh dari narasumber atau langsung datang ke workshop milik narasumber. Setelah itu, teknisi akan datang langsung ke lokasi untuk melakukan perbaikan, dan proses diakhiri dengan pembayaran. Meskipun cara ini masih berjalan, namun terdapat beberapa kendala yang dirasakan, terutama dalam hal efisiensi dan jangkauan pasar.
 
----
+Menurut narasumber, perubahan perilaku pelanggan setelah pandemi menjadi tantangan tersendiri. Saat ini, pelanggan cenderung mencari layanan melalui internet atau media sosial. Namun, usaha yang dijalankan belum memiliki platform digital seperti website atau media sosial aktif, sehingga proses pengenalan usaha kepada pelanggan baru menjadi lebih lambat dibandingkan kompetitor.
 
-## 🎯 Sasaran Pengguna
-Sasaran Pengguna dari Sistem Web Usaha Digital Printing ini terdiri dari dua kelompok utama:
+Selain itu, pencatatan pesanan yang masih dilakukan secara manual berpotensi menimbulkan kesalahan dan sulit untuk direkap dalam jangka panjang. Hal ini menunjukkan bahwa diperlukan suatu sistem yang dapat membantu proses bisnis menjadi lebih terstruktur dan terdokumentasi dengan baik.
 
-**👨‍💼 Admin (Pemilik & Pegawai Usaha)**
-Pihak pengelola yang bertanggung jawab atas pembaruan stok mesin/sparepart, penerimaan jadwal servis, dan pemantauan kinerja bisnis. Mereka membutuhkan sistem yang dapat menyajikan data penjualan dan pesanan servis secara rapi dan terpusat.
-
-**🧑‍💻 Customer (Pelanggan)**
-Pelanggan yang terdiri dari sektor *retail*, perkantoran (*office*), hingga departemen pemerintah. Mereka membutuhkan kemudahan dalam melihat katalog produk, memesan teknisi untuk perbaikan (*service*), dan melakukan konsultasi terkait mesin fotokopi secara *online*.
+Beberapa penelitian juga menyebutkan bahwa penerapan sistem informasi berbasis web dapat meningkatkan efisiensi operasional serta memperluas jangkauan pasar suatu usaha (Laudon & Laudon, 2020). Oleh karena itu, pengembangan sistem digital menjadi solusi yang relevan untuk permasalahan ini.
 
 ---
 
-## 💬 Hasil Wawancara: Analisis Kebutuhan Sistem
-Berikut adalah rangkuman tanya jawab berdasarkan wawancara bersama Bapak Hasanudin:
+##  Sasaran Pengguna
+Sistem yang dirancang ditujukan untuk dua jenis pengguna utama, yaitu admin dan customer.
 
-* **Durasi & Alur Bisnis:** Usaha ini sudah berjalan kurang lebih 16 tahun. Alur pelayanannya masih konvensional, di mana pelanggan menelepon atau mengirim pesan, teknisi datang untuk mengerjakan servis, lalu diakhiri dengan pembayaran.
-* **Demografi Pelanggan:** Pelanggan berasal dari berbagai kalangan mulai dari *retail*, *office*, hingga departemen pemerintah. Dalam sehari, usaha ini bisa menangani sekitar 20 panggilan servis di area Jabodetabek.
-* **Kendala & Tantangan Utama:** Tantangan terbesar yang sangat berpengaruh saat ini adalah pergeseran ke era sosial media dan digital. Karena belum menggunakan platform digital, kendala utama yang sering terjadi adalah lambatnya pengenalan usaha kepada target pelanggan baru. Pencatatan pesanan pun masih dilakukan secara biasa/manual.
-* **Harapan Sistem Digital:** Bapak Hasanudin belum pernah menggunakan media promosi digital. Jika platform dibangun, fitur yang paling dibutuhkan adalah etalase penjualan produk, pengenalan jasa servis, serta fitur edukasi untuk pelanggan awam terkait mesin yang dijual.
-* **Dampak Proyeksi:** Jika platform digital berjalan, dampaknya akan sangat signifikan terhadap peningkatan penjualan produk dan perluasan jangkauan pasar hingga skala nasional (karena sudah didukung ekspedisi). Platform ini nantinya tidak hanya digunakan secara pribadi oleh pemilik, tetapi juga akan digunakan oleh para pegawai untuk bersama-sama membangun usaha.
+** Admin (Pemilik & Pegawai Usaha)**
+Admin merupakan pihak yang mengelola keseluruhan sistem. Berdasarkan hasil wawancara, admin membutuhkan sistem yang dapat membantu dalam mengelola data produk, menerima pesanan service, serta melihat laporan usaha secara terpusat.
+
+**Customer (Pelanggan)**
+Customer berasal dari berbagai kalangan, seperti retail, perkantoran, hingga instansi pemerintah. Mereka membutuhkan kemudahan dalam melihat produk, melakukan pemesanan service, serta berkonsultasi terkait kerusakan mesin tanpa harus datang langsung ke lokasi.
 
 ---
 
-## 📋 Bagian 1: Analisis Aktor
+## Hasil Wawancara: Analisis Kebutuhan Sistem
+Dari wawancara yang dilakukan, dapat disimpulkan beberapa poin penting terkait kondisi sistem yang sedang berjalan.
 
-**👨‍💼 Admin (Pemilik & Pegawai)**
+Pertama, dari sisi operasional, proses bisnis masih dilakukan secara manual. Pemesanan dilakukan melalui komunikasi langsung, sehingga sering kali tidak memiliki format yang jelas. Hal ini berpotensi menimbulkan miskomunikasi antara pelanggan dan teknisi.
+
+Kedua, dari sisi promosi, usaha masih mengandalkan relasi atau pelanggan lama. Narasumber menyampaikan bahwa belum pernah menggunakan media digital sebagai sarana promosi, sehingga jangkauan pasar masih terbatas.
+
+Ketiga, dari sisi pencatatan, semua data pesanan dan transaksi masih dicatat secara sederhana. Hal ini menyulitkan dalam pembuatan laporan dan analisis perkembangan usaha.
+
+Berdasarkan kondisi tersebut, narasumber mengharapkan adanya sistem yang dapat:
+1. Menampilkan katalog produk secara online
+2. Memfasilitasi pemesanan service secara terstruktur
+3. Menyediakan media konsultasi dengan pelanggan
+4. Membantu dalam pembuatan laporan usaha
+
+---
+
+##  Bagian 1: Analisis Aktor
+
+**Admin (Pemilik & Pegawai)**
 Aktor utama yang memiliki kontrol penuh terhadap sistem manajemen katalog dan layanan.
 *Tugas & Tanggung Jawab:*
 * **Kelola Produk:** Menambah, mengedit, dan menghapus katalog mesin fotokopi dan *sparepart*.
@@ -59,7 +71,7 @@ Aktor utama yang memiliki kontrol penuh terhadap sistem manajemen katalog dan la
 * **Lihat Laporan:** Memantau rekapitulasi data penjualan dan histori servis.
 * **Konsultasi:** Merespons pertanyaan atau keluhan pelanggan.
 
-**🧑‍💻 Customer (Pelanggan)**
+**Customer (Pelanggan)**
 Aktor yang menggunakan layanan web untuk mencari produk dan jasa servis.
 *Tugas & Tanggung Jawab:*
 * Melihat katalog mesin fotokopi dan *sparepart*.
@@ -68,7 +80,7 @@ Aktor yang menggunakan layanan web untuk mencari produk dan jasa servis.
 
 ---
 
-## ⚖️ Bagian 2: Analisis Perbandingan Sistem
+## Bagian 2: Analisis Perbandingan Sistem
 
 | Kategori | Sistem Lama (Manual) | Sistem Baru (Digital Berbasis Web) |
 | :--- | :--- | :--- |
@@ -79,7 +91,7 @@ Aktor yang menggunakan layanan web untuk mencari produk dan jasa servis.
 
 ---
 
-## 📌 3. Skenario Sistem (Use Case)
+##  3. Skenario Sistem (Use Case)
 
 **Use Case Description**
 
@@ -95,7 +107,7 @@ Lihat Laporan → Admin melihat data penjualan & service
 
 ---
 
-## 📋 Rincian Alur Sistem (Proses Inti)
+##  Rincian Alur Sistem (Proses Inti)
 
 **1. Kelola Produk (Katalog Mesin & Sparepart)**
 * **Aktor:** Admin
@@ -115,7 +127,7 @@ Lihat Laporan → Admin melihat data penjualan & service
 
 ---
 
-## 💡 Kesimpulan & Solusi yang Ditawarkan
+##  Kesimpulan & Solusi yang Ditawarkan
 Berdasarkan analisis, sistem operasional konvensional tidak lagi relevan untuk menghadapi tantangan era digital dan membatasi potensi ekspansi Bapak Hasanudin. 
 
 Solusi yang ditawarkan adalah **membangun website bisnis digital printing berbasis web** dengan fitur utama:
