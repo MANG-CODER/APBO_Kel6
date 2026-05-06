@@ -143,6 +143,38 @@ Solusi yang ditawarkan adalah **membangun website bisnis digital printing berbas
 3. Mengedukasi pelanggan terkait produk yang dijual.
 4. Meningkatkan profesionalitas dan efisiensi manajemen data usaha.
 
+**Analisis Aktor**
+Dalam sistem yang diusulkan, terdapat dua aktor utama, yaitu admin dan customer.
+Admin memiliki peran dalam mengelola data produk, memproses pesanan service, serta melihat laporan usaha. Sementara itu, customer berperan sebagai pengguna layanan yang dapat melihat produk, melakukan pemesanan, serta melakukan konsultasi.
+Interaksi antara kedua aktor ini menjadi dasar dalam perancangan sistem berbasis web yang diusulkan.
+
+**Perbandingan Sistem Lama dan Sistem Usulan**
+Perbedaan antara sistem lama dan sistem yang diusulkan dapat dilihat dari beberapa aspek. Sistem lama masih bersifat manual, baik dalam promosi, pemesanan, maupun pencatatan data. Hal ini menyebabkan proses menjadi kurang efisien dan sulit dikembangkan.
+Sebaliknya, sistem usulan berbasis web memungkinkan seluruh proses dilakukan secara digital. Katalog produk dapat diakses kapan saja, pemesanan menjadi lebih terstruktur, dan laporan dapat dihasilkan secara otomatis. Dengan demikian, sistem baru diharapkan mampu meningkatkan efisiensi dan profesionalitas usaha.
+
+**Skenario Sistem (Use Case)**
+Beberapa fungsi utama dalam sistem yang diusulkan antara lain:
+Pengelolaan produk oleh admin
+Pemesanan service oleh customer
+Fitur konsultasi antara customer dan admin
+Akses laporan usaha oleh admin
+Use case ini disusun berdasarkan kebutuhan yang diperoleh langsung dari hasil wawancara.
+
+**Rincian Proses Sistem**
+Proses dalam sistem dimulai dari customer yang mengakses website untuk melihat produk atau melakukan pemesanan service. Data yang dimasukkan oleh customer akan diterima oleh admin melalui dashboard sistem.
+Selanjutnya, admin akan memproses pesanan tersebut dan mengatur jadwal teknisi. Setelah pekerjaan selesai, data transaksi akan tersimpan dalam sistem dan dapat digunakan sebagai bahan laporan.
+Proses ini menunjukkan adanya integrasi yang lebih baik dibandingkan sistem sebelumnya yang masih manual.
+
+**Kesimpulan**
+Berdasarkan hasil wawancara dan analisis yang telah dilakukan, dapat disimpulkan bahwa sistem yang saat ini digunakan masih memiliki banyak keterbatasan, terutama dalam hal efisiensi, pencatatan data, dan jangkauan pasar.
+Pengembangan sistem informasi berbasis web menjadi solusi yang tepat untuk mengatasi permasalahan tersebut. Dengan adanya sistem ini, proses bisnis dapat berjalan lebih terstruktur, data tersimpan dengan baik, serta jangkauan usaha dapat diperluas.
+Selain itu, sistem ini juga diharapkan dapat meningkatkan kualitas pelayanan kepada pelanggan serta membantu pemilik usaha dalam mengambil keputusan berdasarkan data yang tersedia.
+
+**Referensi**
+Laudon, K. C., & Laudon, J. P. (2020). Management Information Systems: Managing the Digital Firm. Pearson.
+O’Brien, J. A., & Marakas, G. M. (2011). Introduction to Information Systems. McGraw-Hill.
+
+
 ---
 ## 📌 WORKFLOW GIT (Internal Team)
 1. `git clone` (Clone repo ke local)
