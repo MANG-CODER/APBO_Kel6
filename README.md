@@ -8,7 +8,7 @@ Dosen: Adi Wahyu Pribadi, S.Si., M.Kom
 
 **Narasumber:** Bapak Hasanudin (Pemilik Usaha)
 
-** Anggota Kelompok 06:**
+**Anggota Kelompok 06:**
 - Fadhil Pratama (4524210032)
 - Indra Fadhillah Ahmad (4524210043)
 - Ivan Wirahadi Permana (4524210045)
@@ -36,7 +36,7 @@ Beberapa penelitian juga menyebutkan bahwa penerapan sistem informasi berbasis w
 ##  Sasaran Pengguna
 Sistem yang dirancang ditujukan untuk dua jenis pengguna utama, yaitu admin dan customer.
 
-** Admin (Pemilik & Pegawai Usaha)**
+**Admin (Pemilik & Pegawai Usaha)**
 Admin merupakan pihak yang mengelola keseluruhan sistem. Berdasarkan hasil wawancara, admin membutuhkan sistem yang dapat membantu dalam mengelola data produk, menerima pesanan service, serta melihat laporan usaha secara terpusat.
 
 **Customer (Pelanggan)**
