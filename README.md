@@ -231,6 +231,8 @@ Hubungan Antar Kelas
 4. Produk berhubungan dengan PesananService
     Setiap pemesanan service menggunakan produk atau layanan yang tersedia.
 ## State Diagram
+<img width="916" height="300" alt="Copy of Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/36375a16-ba3f-4779-8911-bd9231ea271c" />
+
 ## Sequence Diagram
 <img width="863" height="572" alt="UYYYYYYYYYYY drawio" src="https://github.com/user-attachments/assets/f3d9beaa-d7e3-4a6d-9170-65d0052fe494" />
 
@@ -264,6 +266,8 @@ Alur Proses
 9. Web (UI) menampilkan hasil proses kepada customer.
     Sistem menampilkan pesan sukses sebagai tanda bahwa proses pemesanan telah selesai.
 ## Activity Diagram
+<img width="811" height="701" alt="Untitled Diagram drawio (40)" src="https://github.com/user-attachments/assets/f99c3dab-7680-484c-86fb-29125891b5e1" />
+
 ---
 ## 📌 WORKFLOW GIT (Internal Team)
 1. `git clone` (Clone repo ke local)
