@@ -232,6 +232,33 @@ Hubungan Antar Kelas
     Setiap pemesanan service menggunakan produk atau layanan yang tersedia.
 ## State Diagram
 <img width="916" height="300" alt="Copy of Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/36375a16-ba3f-4779-8911-bd9231ea271c" />
+State Diagram ini menggambarkan perubahan status pesanan service mulai dari pesanan diterima hingga proses service selesai atau dibatalkan. Diagram menunjukkan bagaimana suatu pesanan berpindah dari satu status ke status lainnya berdasarkan kondisi atau kejadian tertentu.
+
+Alur Status
+1. Mulai (Start)
+Proses dimulai ketika terdapat pesanan service baru yang masuk ke dalam sistem.
+
+2. Menunggu (Pesanan Baru Masuk)
+Status awal pesanan adalah Menunggu. Pada tahap ini pesanan telah diterima oleh sistem dan sedang menunggu validasi dari admin.
+
+3. Diproses (Menjadwalkan Teknisi)
+Setelah admin memvalidasi pesanan, status berubah menjadi Diproses. Pada tahap ini admin melakukan penjadwalan dan menentukan teknisi yang akan menangani service.
+
+4. Dalam Perjalanan (Teknisi Menuju Lokasi dan Memperbaiki)
+Setelah teknisi ditugaskan, status pesanan berubah menjadi Dalam Perjalanan. Teknisi menuju lokasi customer dan mulai melakukan pemeriksaan atau perbaikan terhadap mesin yang mengalami kerusakan.
+
+5. Selesai (Service Selesai dan Dibayar)
+Apabila proses perbaikan berhasil diselesaikan dan customer telah melakukan pembayaran, maka status pesanan berubah menjadi Selesai. Status ini menunjukkan bahwa seluruh proses service telah berhasil dilakukan.
+
+6. Dibatalkan (Pesanan Dibatalkan)
+Status pesanan dapat berubah menjadi Dibatalkan dalam beberapa kondisi, antara lain:
+- Admin membatalkan pesanan.
+- Customer membatalkan pesanan.
+- Perbaikan tidak dapat dilakukan.
+- Terjadi kendala yang menyebabkan service tidak dapat dilanjutkan.
+
+7. Akhir Proses
+Proses berakhir ketika pesanan berada pada status Selesai atau Dibatalkan.
 
 ## Sequence Diagram
 <img width="863" height="572" alt="UYYYYYYYYYYY drawio" src="https://github.com/user-attachments/assets/f3d9beaa-d7e3-4a6d-9170-65d0052fe494" />
@@ -267,6 +294,54 @@ Alur Proses
     Sistem menampilkan pesan sukses sebagai tanda bahwa proses pemesanan telah selesai.
 ## Activity Diagram
 <img width="811" height="701" alt="Untitled Diagram drawio (40)" src="https://github.com/user-attachments/assets/f99c3dab-7680-484c-86fb-29125891b5e1" />
+AActivity Diagram ini menggambarkan proses pemesanan layanan service yang dilakukan oleh customer melalui sistem. Diagram dibagi menjadi dua swimlane, yaitu Customer dan Sistem, untuk menunjukkan siapa yang melakukan setiap aktivitas.
+
+Alur Proses
+1. Start
+
+Proses dimulai dari simbol lingkaran awal (initial node).
+
+2. Customer membuka halaman "Pesan Service"
+
+Customer mengakses halaman pemesanan service pada aplikasi atau website.
+
+3. Customer mengisi formulir pemesanan
+
+Customer memasukkan data yang diperlukan, seperti:
+- Data diri
+- Jenis mesin
+- Kerusakan yang dialami
+- Jadwal service yang diinginkan
+
+4. Customer mengklik tombol "Kirim Pesanan"
+Setelah seluruh data terisi, customer mengirimkan formulir ke sistem.
+
+5. Sistem melakukan validasi data
+Sistem memeriksa apakah seluruh data yang wajib diisi sudah lengkap dan tidak kosong.
+
+6. Keputusan: Data Valid?
+Pada bagian ini terdapat simbol decision (belah ketupat) untuk menentukan kondisi data.
+
+Jika data tidak valid:
+- Sistem menampilkan pesan error kepada customer.
+- Customer harus memperbaiki data yang belum lengkap.
+Jika data valid:
+- Sistem melanjutkan proses pemesanan.
+
+7. Sistem menyimpan pesanan ke database
+Data pemesanan yang valid disimpan ke dalam database untuk diproses lebih lanjut.
+
+8. Sistem mengirim notifikasi ke admin
+Sistem memberikan notifikasi kepada admin bahwa terdapat pesanan service baru.
+
+9. Sistem menampilkan pesan berhasil
+Sistem memberikan informasi bahwa pemesanan telah berhasil dilakukan.
+
+10. Customer melihat pesan berhasil
+Customer menerima konfirmasi bahwa pesanan service berhasil dikirim.
+
+11. End
+Proses berakhir pada simbol final node.
 
 ---
 ## 📌 WORKFLOW GIT (Internal Team)
