@@ -232,7 +232,7 @@ Hubungan Antar Kelas
     Setiap pemesanan service menggunakan produk atau layanan yang tersedia.
 ## State Diagram
 ## Sequence Diagram
-<img width="862" height="572" alt="SADDD drawio" src="https://github.com/user-attachments/assets/fc742f63-2422-42d7-8e26-41546afdae96" />
+<img width="863" height="572" alt="UYYYYYYYYYYY drawio" src="https://github.com/user-attachments/assets/f3d9beaa-d7e3-4a6d-9170-65d0052fe494" />
 
 Sequence Diagram tersebut menggambarkan alur proses pemesanan layanan service yang dilakukan oleh customer melalui sistem berbasis web. Diagram ini menunjukkan interaksi antar objek yang terlibat, yaitu Customer, Web (UI), ServiceController, PesananService (Model), dan Notifikasi (Email/WA).
 
