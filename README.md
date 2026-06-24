@@ -174,7 +174,92 @@ Selain itu, sistem ini juga diharapkan dapat meningkatkan kualitas pelayanan kep
 Laudon, K. C., & Laudon, J. P. (2020). Management Information Systems: Managing the Digital Firm. Pearson.
 O’Brien, J. A., & Marakas, G. M. (2011). Introduction to Information Systems. McGraw-Hill.
 
+## Class Diagram
+Class Diagram menggambarkan struktur kelas yang digunakan dalam sistem pemesanan service serta hubungan antar kelas tersebut. Pada diagram terdapat beberapa kelas utama yaitu Admin, Produk, Customer, PesananService, dan Laporan.
 
+1. Kelas Admin
+    Kelas Admin digunakan untuk mengelola seluruh aktivitas sistem.
+    Tanggung Jawab:
+    - Mengelola data produk.
+    - Mengelola data customer.
+    - Mengelola data pemesanan service.
+    - Membuat dan melihat laporan.
+    Admin memiliki hak akses penuh terhadap sistem sehingga dapat melakukan operasi tambah, ubah, hapus, dan melihat data.
+
+2. Kelas Produk
+    Kelas Produk digunakan untuk menyimpan informasi mengenai produk atau layanan yang tersedia.
+    Tanggung Jawab:
+    - Menyimpan data produk.
+    - Menampilkan informasi produk.
+    - Menjadi referensi dalam proses pemesanan service.
+    Produk dapat digunakan oleh customer saat melakukan pemesanan layanan.
+
+3. Kelas Customer
+    Kelas Customer merepresentasikan pengguna yang melakukan pemesanan service.
+    Tanggung Jawab:
+    - Melihat daftar produk atau layanan.
+    - Melakukan pemesanan service.
+    - Menerima informasi terkait status pemesanan.
+    - Customer berinteraksi langsung dengan sistem melalui antarmuka web.
+
+4. Kelas PesananService
+    Kelas PesananService merupakan inti dari proses bisnis pemesanan.
+    Tanggung Jawab:
+    - Menyimpan data pemesanan.
+    - Menghubungkan customer dengan produk yang dipilih.
+    - Mengelola status pemesanan service.
+    - Menyediakan data untuk pembuatan laporan.
+    Kelas ini memiliki hubungan dengan Customer dan Produk karena setiap transaksi pemesanan melibatkan customer dan produk tertentu.
+
+5. Kelas Laporan
+    Kelas Laporan digunakan untuk menghasilkan informasi dan rekapitulasi data yang dibutuhkan oleh admin.
+    Tanggung Jawab:
+    - Menampilkan data transaksi service.
+    - Menyusun laporan pemesanan.
+    - Menyediakan informasi untuk evaluasi bisnis.
+    Laporan dihasilkan berdasarkan data yang tersimpan pada PesananService.
+
+Hubungan Antar Kelas
+1. Admin berhubungan dengan Produk
+    Admin dapat mengelola data produk yang tersedia dalam sistem.
+2. Admin berhubungan dengan Laporan
+    Admin dapat membuat dan melihat laporan transaksi service.
+3. Customer berhubungan dengan PesananService
+    Customer melakukan pemesanan yang dicatat pada kelas PesananService.
+4. Produk berhubungan dengan PesananService
+    Setiap pemesanan service menggunakan produk atau layanan yang tersedia.
+## State Diagram
+## Sequence Diagram
+Sequence Diagram tersebut menggambarkan alur proses pemesanan layanan service yang dilakukan oleh customer melalui sistem berbasis web. Diagram ini menunjukkan interaksi antar objek yang terlibat, yaitu Customer, Web (UI), ServiceController, PesananService (Model), dan Notifikasi (Email/WA).
+
+Alur Proses
+1. Customer mengakses halaman pemesanan service melalui Web (UI).
+    Pada tahap ini customer membuka website dan mengisi data yang diperlukan untuk melakukan pemesanan service.
+
+2. Web (UI) mengirimkan data pemesanan ke ServiceController.
+    Setelah customer menekan tombol simpan atau kirim, data pemesanan diteruskan ke ServiceController untuk diproses lebih lanjut.
+
+3. ServiceController melakukan validasi data.
+    Controller bertugas memeriksa kelengkapan dan kebenaran data yang dimasukkan customer sebelum disimpan ke dalam sistem.
+
+4. ServiceController mengirim data ke PesananService (Model).
+    Jika data valid, controller meneruskan informasi pemesanan ke model untuk disimpan ke database.
+
+5. PesananService (Model) menyimpan data pemesanan.
+    Model bertanggung jawab mengelola data dan melakukan proses penyimpanan ke basis data.
+
+6. PesananService mengembalikan status penyimpanan ke       ServiceController.
+    Setelah data berhasil disimpan, model memberikan respons bahwa proses berhasil dilakukan.
+
+7. ServiceController memanggil layanan Notifikasi.
+    Sistem kemudian mengirimkan informasi pemesanan kepada customer melalui Email atau WhatsApp.
+
+8. Notifikasi mengirim konfirmasi pemesanan.
+    Customer menerima pesan berisi informasi bahwa pemesanan service telah berhasil dilakukan.
+
+9. Web (UI) menampilkan hasil proses kepada customer.
+    Sistem menampilkan pesan sukses sebagai tanda bahwa proses pemesanan telah selesai.
+## Activity Diagram
 ---
 ## 📌 WORKFLOW GIT (Internal Team)
 1. `git clone` (Clone repo ke local)
