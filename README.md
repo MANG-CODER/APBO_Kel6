@@ -175,6 +175,8 @@ Laudon, K. C., & Laudon, J. P. (2020). Management Information Systems: Managing 
 O’Brien, J. A., & Marakas, G. M. (2011). Introduction to Information Systems. McGraw-Hill.
 
 ## Class Diagram
+<img width="651" height="668" alt="WhatsApp Image 2026-06-24 at 18 27 23" src="https://github.com/user-attachments/assets/0ccbe3cf-5eac-4aae-9f23-a72a8163c5ff" />
+
 Class Diagram menggambarkan struktur kelas yang digunakan dalam sistem pemesanan service serta hubungan antar kelas tersebut. Pada diagram terdapat beberapa kelas utama yaitu Admin, Produk, Customer, PesananService, dan Laporan.
 
 1. Kelas Admin
@@ -230,6 +232,8 @@ Hubungan Antar Kelas
     Setiap pemesanan service menggunakan produk atau layanan yang tersedia.
 ## State Diagram
 ## Sequence Diagram
+<img width="862" height="572" alt="SD drawio" src="https://github.com/user-attachments/assets/5f2dd40a-7f6d-4e03-beae-55d3ed6418f7" />
+
 Sequence Diagram tersebut menggambarkan alur proses pemesanan layanan service yang dilakukan oleh customer melalui sistem berbasis web. Diagram ini menunjukkan interaksi antar objek yang terlibat, yaitu Customer, Web (UI), ServiceController, PesananService (Model), dan Notifikasi (Email/WA).
 
 Alur Proses
