@@ -103,7 +103,9 @@ Konsultasi → Customer bertanya via sistem / WhatsApp
 
 Lihat Laporan → Admin melihat data penjualan & service
 
-**Diagram Use Case:** <img width="800" alt="Use Case Diagram" src="https://github.com/user-attachments/assets/47ed1ef3-fd23-42f4-8a7d-12093a319c00" />
+## Use Case Diagram:
+<img width="659" height="602" alt="WhatsApp Image 2026-06-24 at 18 37 06" src="https://github.com/user-attachments/assets/98098447-73ab-4e50-ba10-67a61dd94ec1" />
+
 
 ---
 
@@ -232,6 +234,7 @@ Hubungan Antar Kelas
     Setiap pemesanan service menggunakan produk atau layanan yang tersedia.
 ## State Diagram
 <img width="916" height="300" alt="Copy of Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/36375a16-ba3f-4779-8911-bd9231ea271c" />
+
 State Diagram ini menggambarkan perubahan status pesanan service mulai dari pesanan diterima hingga proses service selesai atau dibatalkan. Diagram menunjukkan bagaimana suatu pesanan berpindah dari satu status ke status lainnya berdasarkan kondisi atau kejadian tertentu.
 
 Alur Status
