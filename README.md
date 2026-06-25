@@ -177,7 +177,8 @@ Laudon, K. C., & Laudon, J. P. (2020). Management Information Systems: Managing 
 O’Brien, J. A., & Marakas, G. M. (2011). Introduction to Information Systems. McGraw-Hill.
 
 ## Class Diagram
-<img width="651" height="668" alt="WhatsApp Image 2026-06-24 at 18 27 23" src="https://github.com/user-attachments/assets/0ccbe3cf-5eac-4aae-9f23-a72a8163c5ff" />
+<img width="932" height="722" alt="image" src="https://github.com/user-attachments/assets/0b173e7b-5697-4f6b-b2ca-08dc8a9ddc1c" />
+
 
 Class Diagram menggambarkan struktur kelas yang digunakan dalam sistem pemesanan service serta hubungan antar kelas tersebut. Pada diagram terdapat beberapa kelas utama yaitu Admin, Produk, Customer, PesananService, dan Laporan.
 
@@ -233,7 +234,8 @@ Hubungan Antar Kelas
 4. Produk berhubungan dengan PesananService
     Setiap pemesanan service menggunakan produk atau layanan yang tersedia.
 ## State Diagram
-<img width="916" height="271" alt="Untitled Diagram drawio (47)" src="https://github.com/user-attachments/assets/be02f8be-b4d2-4f7c-8e8d-479a9ca87e20" />
+ <img width="1005" height="270" alt="image" src="https://github.com/user-attachments/assets/086bea1e-60e7-4180-b94d-3856365fdebc" />
+
 
 State Diagram ini menggambarkan perubahan status pesanan service selama proses pelayanan berlangsung. Diagram menunjukkan bagaimana suatu pesanan berpindah dari satu status ke status lainnya hingga mencapai status akhir.
 
@@ -261,7 +263,9 @@ Selain menuju status selesai, pesanan juga dapat berubah menjadi **Dibatalkan**.
 Proses berakhir ketika pesanan mencapai status akhir, yaitu **Selesai** atau **Dibatalkan**.
 
 ## Sequence Diagram
-<img width="863" height="572" alt="UYYYYYYYYYYY drawio" src="https://github.com/user-attachments/assets/f3d9beaa-d7e3-4a6d-9170-65d0052fe494" />
+
+<img width="1181" height="600" alt="image" src="https://github.com/user-attachments/assets/85254bc6-a801-4af2-9a78-7982182bc5fe" />
+
 
 Sequence Diagram tersebut menggambarkan alur proses pemesanan layanan service yang dilakukan oleh customer melalui sistem berbasis web. Diagram ini menunjukkan interaksi antar objek yang terlibat, yaitu Customer, Web (UI), ServiceController, PesananService (Model), dan Notifikasi (Email/WA).
 
@@ -293,8 +297,10 @@ Alur Proses
 9. Web (UI) menampilkan hasil proses kepada customer.
     Sistem menampilkan pesan sukses sebagai tanda bahwa proses pemesanan telah selesai.
 ## Activity Diagram
-<img width="811" height="701" alt="Untitled Diagram drawio (40)" src="https://github.com/user-attachments/assets/f99c3dab-7680-484c-86fb-29125891b5e1" />
-AActivity Diagram ini menggambarkan proses pemesanan layanan service yang dilakukan oleh customer melalui sistem. Diagram dibagi menjadi dua swimlane, yaitu Customer dan Sistem, untuk menunjukkan siapa yang melakukan setiap aktivitas.
+
+ <img width="797" height="700" alt="image" src="https://github.com/user-attachments/assets/8c8c5b23-bee0-4164-a2e2-1115e7cc8205" />
+
+ Activity Diagram ini menggambarkan proses pemesanan layanan service yang dilakukan oleh customer melalui sistem. Diagram dibagi menjadi dua swimlane, yaitu Customer dan Sistem, untuk menunjukkan siapa yang melakukan setiap aktivitas.
 
 Alur Proses
 1. Start
