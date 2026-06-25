@@ -233,7 +233,7 @@ Hubungan Antar Kelas
 4. Produk berhubungan dengan PesananService
     Setiap pemesanan service menggunakan produk atau layanan yang tersedia.
 ## State Diagram
-<img width="916" height="300" alt="Copy of Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/36375a16-ba3f-4779-8911-bd9231ea271c" />
+<img width="916" height="271" alt="Untitled Diagram drawio (47)" src="https://github.com/user-attachments/assets/be02f8be-b4d2-4f7c-8e8d-479a9ca87e20" />
 
 State Diagram ini menggambarkan perubahan status pesanan service mulai dari pesanan diterima hingga proses service selesai atau dibatalkan. Diagram menunjukkan bagaimana suatu pesanan berpindah dari satu status ke status lainnya berdasarkan kondisi atau kejadian tertentu.
 
