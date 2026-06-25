@@ -235,33 +235,30 @@ Hubungan Antar Kelas
 ## State Diagram
 <img width="916" height="271" alt="Untitled Diagram drawio (47)" src="https://github.com/user-attachments/assets/be02f8be-b4d2-4f7c-8e8d-479a9ca87e20" />
 
-State Diagram ini menggambarkan perubahan status pesanan service mulai dari pesanan diterima hingga proses service selesai atau dibatalkan. Diagram menunjukkan bagaimana suatu pesanan berpindah dari satu status ke status lainnya berdasarkan kondisi atau kejadian tertentu.
+State Diagram ini menggambarkan perubahan status pesanan service selama proses pelayanan berlangsung. Diagram menunjukkan bagaimana suatu pesanan berpindah dari satu status ke status lainnya hingga mencapai status akhir.
 
-Alur Status
-1. Mulai (Start)
+## Alur Status
+
+1. Start
 Proses dimulai ketika terdapat pesanan service baru yang masuk ke dalam sistem.
 
 2. Menunggu (Pesanan Baru Masuk)
-Status awal pesanan adalah Menunggu. Pada tahap ini pesanan telah diterima oleh sistem dan sedang menunggu validasi dari admin.
+Status awal pesanan adalah **Menunggu**. Pada tahap ini pesanan telah diterima oleh sistem dan sedang menunggu tindakan dari admin untuk melakukan verifikasi dan penjadwalan.
 
 3. Diproses (Menjadwalkan Teknisi)
-Setelah admin memvalidasi pesanan, status berubah menjadi Diproses. Pada tahap ini admin melakukan penjadwalan dan menentukan teknisi yang akan menangani service.
+Setelah pesanan diverifikasi oleh admin, status berubah menjadi **Diproses**. Pada tahap ini admin melakukan penjadwalan service dan menentukan teknisi yang akan menangani pesanan.
 
 4. Dalam Perjalanan (Teknisi Menuju Lokasi dan Memperbaiki)
-Setelah teknisi ditugaskan, status pesanan berubah menjadi Dalam Perjalanan. Teknisi menuju lokasi customer dan mulai melakukan pemeriksaan atau perbaikan terhadap mesin yang mengalami kerusakan.
+Setelah teknisi ditugaskan, status pesanan berubah menjadi **Dalam Perjalanan**. Pada tahap ini teknisi menuju lokasi customer dan melakukan pemeriksaan serta perbaikan terhadap mesin yang mengalami kerusakan.
 
 5. Selesai (Service Selesai dan Dibayar)
-Apabila proses perbaikan berhasil diselesaikan dan customer telah melakukan pembayaran, maka status pesanan berubah menjadi Selesai. Status ini menunjukkan bahwa seluruh proses service telah berhasil dilakukan.
+Apabila proses perbaikan berhasil dilakukan dan pembayaran telah diselesaikan oleh customer, maka status pesanan berubah menjadi **Selesai**. Status ini menunjukkan bahwa seluruh proses service telah berhasil diselesaikan.
 
 6. Dibatalkan (Pesanan Dibatalkan)
-Status pesanan dapat berubah menjadi Dibatalkan dalam beberapa kondisi, antara lain:
-- Admin membatalkan pesanan.
-- Customer membatalkan pesanan.
-- Perbaikan tidak dapat dilakukan.
-- Terjadi kendala yang menyebabkan service tidak dapat dilanjutkan.
+Selain menuju status selesai, pesanan juga dapat berubah menjadi **Dibatalkan**. Status ini menunjukkan bahwa proses service tidak dilanjutkan karena adanya pembatalan atau kendala tertentu yang menyebabkan pesanan tidak dapat diproses hingga selesai.
 
-7. Akhir Proses
-Proses berakhir ketika pesanan berada pada status Selesai atau Dibatalkan.
+7. End
+Proses berakhir ketika pesanan mencapai status akhir, yaitu **Selesai** atau **Dibatalkan**.
 
 ## Sequence Diagram
 <img width="863" height="572" alt="UYYYYYYYYYYY drawio" src="https://github.com/user-attachments/assets/f3d9beaa-d7e3-4a6d-9170-65d0052fe494" />
